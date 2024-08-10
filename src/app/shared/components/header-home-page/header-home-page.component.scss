@@ -14,13 +14,30 @@ header{
     gap: 1rem;
 
     div{
+      cursor: pointer;
+    }
+
+    .light-dark{
       background-color: var(--color-background-button-secudary-light);
       padding: 0.75rem 0.75rem 0.5rem 0.75rem;
       border-radius: 0.5rem;
-      cursor: pointer;
 
       &:hover{
         background-color: var(--color-background-button-primary-light);
+      }
+    }
+
+    .mobile-menu {
+      display: none;
+    }
+
+    @media (max-width: 768px) {
+      .mobile-menu {
+        display: block;
+      }
+
+      ul{
+        display: none;
       }
     }
   }

@@ -1,0 +1,18 @@
+<div class="mobile-menu-container">
+  <div *ngIf="!visible">
+    <img src="/assets/list-light.svg" (click)="setMenuIsVisible()" alt="Menu image">
+  </div>
+
+  <div *ngIf="visible" class="visible">
+    <img src="/assets/close-light.svg" (click)="setMenuIsVisible()" class="close" alt="Close image">
+    <nav class="menu">
+      <ul>
+        <li class="active" (click)="setMenuIsVisible()">Inicial</li>
+        <li (click)="setMenuIsVisible()">Sobre</li>
+        <li (click)="setMenuIsVisible()">Projetos</li>
+        <li (click)="setMenuIsVisible()">Habilidades</li>
+        <li (click)="setMenuIsVisible()">Contanto</li>
+      </ul>
+    </nav>
+  </div>
+</div>
