@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Kalam:wght@300;400;700&display=swap');
+
+:root {
+	--color-text-primary-light: #000000;
+	--color-text-secudary-light: #FF944D;
+
+  --color-background-primary-light: #EEF0F2;
+  --color-background-secudary-light: #EBEBED;
+  --color-background-button-primary-light: #FF944D;
+  --color-background-button-secudary-light: #413A4F;
+  --color-background-project-primary-light: #FFF;
+  --color-background-project-secudary-light: #F9FAFB;
+}
+
+*{
+  margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	appearance: none;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+p, a, span, button, h3{
+  font-family: "Heebo", sans-serif;
+  font-style: normal;
+}
+
+h1, h2{
+  font-family: "Kalam", cursive;
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: min(90vw, 86rem);
+  margin: 0 auto;
+}
+
+body {
+  background-color: var(--color-backgroud-primary-light);
+  min-height: 100vh;
+  color: var(--color-text-primary-light);
+}
