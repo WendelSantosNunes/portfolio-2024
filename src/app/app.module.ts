@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { HeaderHomePageComponent } from './shared/components/header-home-page/header-home-page.component';
 import { MobileHomeMenuComponent } from './shared/components/header-home-page/mobile-home-menu/mobile-home-menu.component';
+import { PresentationHomePageComponent } from './pages/home/components/presentation-home-page/presentation-home-page.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { MobileHomeMenuComponent } from './shared/components/header-home-page/mo
     HomeComponent,
     HeaderHomePageComponent,
     MobileHomeMenuComponent,
+    PresentationHomePageComponent,
   ],
   imports: [
     BrowserModule,

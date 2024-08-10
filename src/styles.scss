@@ -1,16 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Kalam:wght@300;400;700&display=swap');
 
 :root {
-	--color-text-primary-light: #000000;
-	--color-text-secudary-light: #FF944D;
-  --color-text-tertiary-light: #FFFFFF;
+	--color-text-primary: #000000;
+	--color-text-secudary: #FF944D;
+  --color-text-tertiary: #FFFFFF;
 
-  --color-background-primary-light: #EEF0F2;
-  --color-background-secudary-light: #EBEBED;
-  --color-background-button-primary-light: #FF944D;
-  --color-background-button-secudary-light: #413A4F;
-  --color-background-project-primary-light: #FFF;
-  --color-background-project-secudary-light: #F9FAFB;
+  --color-background-primary: #EEF0F2;
+  --color-background-secudary: #EBEBED;
+
+  --color-background-button-primary: #FF944D;
+  --color-background-button-secudary: #413A4F;
+  --color-background-button-tertiary: #706388;
+
+  --color-background-project-primary: #FFF;
+  --color-background-project-secudary: #F9FAFB;
+}
+
+body{
+  background-color: var(--color-background-primary);
+  min-height: 100vh;
+  color: var(--color-text-primary);
+
+  &.dark{
+    --color-text-primary: #FFFFFF;
+    --color-text-secudary: #FF944D;
+    --color-text-tertiary: #FFFFFF;
+
+    --color-background-primary: #413A4F;
+    --color-background-secudary: #594F6C;
+
+    --color-background-button-tertiary: #706388;
+    --color-background-button-primary: #FF944D;
+    --color-background-button-secudary: #594F6C;
+
+    background-color: var(--color-background-primary);
+  }
 }
 
 *{
@@ -41,10 +65,4 @@ button {
 .container {
   width: min(90vw, 86rem);
   margin: 0 auto;
-}
-
-body {
-  background-color: var(--color-backgroud-primary-light);
-  min-height: 100vh;
-  color: var(--color-text-primary-light);
 }

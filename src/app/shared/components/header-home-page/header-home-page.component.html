@@ -1,5 +1,5 @@
 <header>
-  <div class="container header-container">
+  <div class="container header-container" >
     <h1>Wendel</h1>
 
     <nav class="menu">
@@ -15,8 +15,9 @@
         <app-mobile-home-menu></app-mobile-home-menu>
       </div>
 
-      <div class="light-dark">
-        <img src="/assets/sun.svg" alt="Sun icon">
+      <div class="light-dark" (click)="toggleTheme()">
+        <img *ngIf="isDark==true" src="/assets/sun.svg" alt="Sun icon">
+        <img *ngIf="isDark==false" src="/assets/moon.svg" alt="Moon icon">
       </div>
     </nav>
   </div>

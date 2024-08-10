@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderHomePageComponent implements OnInit {
 
+  isDark = false
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  toggleTheme(){
+    this.isDark = !this.isDark;
+    document.body.classList.toggle('dark', this.isDark)
+  }
 }

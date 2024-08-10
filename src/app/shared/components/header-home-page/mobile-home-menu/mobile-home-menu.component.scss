@@ -16,7 +16,7 @@
     z-index: 10;
 
     background: linear-gradient(to bottom right, #23252B, rgba(17, 18, 17, 0.95));
-    color: var(--color-text-tertiary-light);
+    color: var(--color-text-tertiary);
 
     .close {
       position: absolute;
@@ -33,7 +33,7 @@
       margin-bottom: 1.25rem;
 
       &:hover{
-        color: var(--color-text-secudary-light);
+        color: var(--color-text-secudary);
       }
     }
   }
