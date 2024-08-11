@@ -1,0 +1,80 @@
+section{
+  background-color: var(--color-background-secudary);
+  margin: 6.25rem auto;
+  overflow: hidden;
+
+  div.container{
+    background-color: var(--color-background-primary);
+    max-width: 70.5rem;
+    width: 100%;
+
+    border-radius: 0.5rem;
+
+    margin: 3.375rem auto;
+    overflow: auto;
+
+    h2{
+      text-align: center;
+      padding-top: 2.5rem;
+
+      color: var(--color-text-secudary);
+      font-size: 2.25rem;
+      font-weight: 400;
+    }
+
+    .about{
+      padding: 2.5rem 0;
+      display: flex;
+      justify-content: space-evenly;
+
+      .about-info{
+        max-width: 37.25rem;
+        width: 100%;
+
+        .technology{
+          display: flex;
+          gap: 1.5rem;
+        }
+
+        a{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 0.5rem;
+          color: var(--color-text-primary);
+        }
+
+        .social-media{
+          display: flex;
+          gap: 1.5rem;
+
+          margin-bottom: 1.5rem;
+        }
+
+        h3{
+          margin: 1.5rem 0 1rem 0;
+        }
+
+        & > p{
+          margin-bottom: 1rem;
+        }
+
+        button{
+          background-color: var(--color-background-button-tertiary);
+          padding: 1.125rem 1.5rem;
+          border-radius: 0.5rem;
+
+          &:hover{
+            transform: scale(0.98);
+            transition: 200ms linear;
+            background-color: var(--color-background-button-primary);
+          }
+
+          a{
+            color: var(--color-text-tertiary);
+          }
+        }
+      }
+    }
+  }
+}
