@@ -31,32 +31,47 @@ section{
 
     div {
       display: flex;
+      flex-wrap: wrap;
       gap: 1rem;
 
-      button{
+      a{
         background-color: var(--color-background-button-tertiary);
+        color: var(--color-text-tertiary);
         padding: 1.125rem 1.5rem;
         border-radius: 0.5rem;
 
-        color: var(--color-text-primary);
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        font-size: 1rem;
+        font-weight: bold;
 
         &:hover{
           transform: scale(0.98);
           transition: 200ms linear;
           background-color: var(--color-background-button-primary);
         }
-
-        a {
-          color: var(--color-text-tertiary);
-
-          display: flex;
-          align-items: center;
-          gap: 0.5rem;
-
-          font-size: 1rem;
-          font-weight: bold;
-        }
       }
+    }
+  }
+
+
+  @media (max-width: 75rem) {
+    & > img{
+      max-width: 400px;
+    }
+  }
+
+  @media (max-width: 62rem) {
+    & > img{
+      max-width: 270px;
+    }
+  }
+
+  @media (max-width: 48rem) {
+    & > img{
+      display: none;
     }
   }
 }

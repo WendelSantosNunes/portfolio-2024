@@ -11,7 +11,7 @@
 
   --color-background-button-primary: #FF944D;
   --color-background-button-secudary: #413A4F;
-  --color-background-button-tertiary: #706388;
+  --color-background-button-tertiary: #000000;
 
   --color-background-project-primary: #FFF;
   --color-background-project-secudary: #F9FAFB;
@@ -27,13 +27,12 @@ body{
     --color-text-secudary: #FF944D;
     --color-text-tertiary: #FFFFFF;
 
-    --color-background-primary: #413A4F;
-    --color-background-secudary: #594F6C;
-    --color-background-tertiary: #706388;
+    --color-background-primary: #2B2B2B;
+    --color-background-secudary: #423F3E;
+    --color-background-tertiary: #313131;
 
-    --color-background-button-tertiary: #706388;
     --color-background-button-primary: #FF944D;
-    --color-background-button-secudary: #594F6C;
+    --color-background-button-tertiary: #454545;
 
     background-color: var(--color-background-primary);
   }
