@@ -1,0 +1,67 @@
+<section class="container">
+  <h2>Projetos</h2>
+
+  <div *ngFor="let project of projectList.slice(0, 4); let index = index" class="project" >
+    <div *ngIf="index % 2 == 0" >
+      <div class="project-img">
+        <img [src]="project.imageUrl" alt="{{ project.name }}">
+      </div>
+      <div class="info">
+        <div class="content">
+          <h3>{{ project.name }}</h3>
+          <p class="text">
+            {{ project.description }}
+          </p>
+
+          <div class="skills">
+            <div *ngFor="let tech of project.technologies">
+              <p>{{ tech }}</p>
+            </div>
+          </div>
+
+          <div class="button">
+            <a *ngIf='project.projectUrl != ""' [href]="project.projectUrl">
+              Visualizar Projeto
+              <img src="/assets/icon.svg" alt="">
+            </a>
+            <a [href]="project.repositoryUrl">
+              Repositório
+              <img src="/assets/github.svg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="index % 2 != 0" >
+      <div class="info">
+        <div class="content">
+          <h3>{{ project.name }}</h3>
+          <p class="text">
+            {{ project.description }}
+          </p>
+
+          <div class="skills">
+            <div *ngFor="let tech of project.technologies">
+              <p>{{ tech }}</p>
+            </div>
+          </div>
+
+          <div class="button">
+            <a *ngIf='project.projectUrl != ""' [href]="project.projectUrl">
+              Visualizar Projeto
+              <img src="/assets/icon.svg" alt="">
+            </a>
+            <a [href]="project.repositoryUrl">
+              Repositório
+              <img src="/assets/github.svg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="project-img">
+        <img [src]="project.imageUrl" alt="{{ project.name }}">
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,121 @@
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2{
+    padding-top: 1rem;
+
+    color: var(--color-text-secudary);
+    font-size: 2.25rem;
+    font-weight: 400;
+  }
+
+  .project:nth-child(5){
+    margin-bottom: 3.75rem;
+  }
+
+  .project{
+    & > div{
+      max-width: 70rem;
+      width: 100%;
+      margin-top: 3.75rem;
+
+      background-color: var(--color-background-secudary);
+
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      @media (max-width: 62rem) {
+        grid-template-columns: 1fr;
+      }
+
+      .project-img {
+        margin: auto;
+
+        img{
+          max-width: 24rem;
+          width: 100%;
+        }
+      }
+
+      .info{
+        background-color: var(--color-background-tertiary);
+
+        .content{
+          max-width: 30rem;
+          width: 100%;
+          margin: auto;
+
+          h3{
+            color: var(--color-text-secudary);
+            font-size: bold;
+            font-size: 1.3125rem;
+          }
+
+          .text{
+            font-size: 1rem;
+          }
+
+          h3, .text{
+            margin-bottom: 1.875rem;
+          }
+
+          .skills{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+
+            margin-bottom: 2rem;
+
+            div{
+              width: min-content;
+              border-radius: 0.75rem;
+
+              background-color: var(--color-background-button-primary);
+              color: var(--color-text-tertiary);
+
+              text-align: center;
+
+              p{
+                padding: 0.25rem 1.25rem;
+              }
+            }
+          }
+
+          .button{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0.625rem;
+            justify-content: space-around;
+
+            a{
+              background-color: var(--color-background-button-tertiary);
+              color: var(--color-text-tertiary);
+
+              padding: 0.5rem 0.875rem;
+              border-radius: 0.5rem;
+
+              display: flex;
+              align-items: center;
+              gap: 0.625rem;
+
+              &:hover{
+                transform: scale(0.98);
+                transition: 200ms linear;
+                background-color: var(--color-background-button-primary);
+              }
+            }
+          }
+        }
+      }
+
+      .project-img, .info{
+        padding: 3rem;
+      }
+    }
+  }
+
+}
+
