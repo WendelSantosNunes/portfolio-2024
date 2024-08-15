@@ -1,0 +1,14 @@
+<section>
+  <div class="container">
+    <h2>
+      Habilidades
+    </h2>
+
+    <div class="skills">
+      <div *ngFor="let skill of skillList">
+        <img [src]="skill.url" alt="{{ skill.alt }}">
+        <p>{{skill.nome}}</p>
+      </div>
+    </div>
+  </div>
+</section>

@@ -9,6 +9,7 @@ import { MobileHomeMenuComponent } from './shared/components/header-home-page/mo
 import { PresentationHomePageComponent } from './pages/home/components/presentation-home-page/presentation-home-page.component';
 import { AboutHomePageComponent } from './pages/home/components/about-home-page/about-home-page.component';
 import { ProjectsHomePageComponent } from './pages/home/components/projects-home-page/projects-home-page.component';
+import { SkillsHomePageComponent } from './pages/home/components/skills-home-page/skills-home-page.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ProjectsHomePageComponent } from './pages/home/components/projects-home
     PresentationHomePageComponent,
     AboutHomePageComponent,
     ProjectsHomePageComponent,
+    SkillsHomePageComponent,
   ],
   imports: [
     BrowserModule,

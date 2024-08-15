@@ -20,11 +20,20 @@
           </div>
 
           <div class="button">
-            <a *ngIf='project.projectUrl != ""' [href]="project.projectUrl">
+            <a
+              *ngIf='project.projectUrl != ""'
+              [href]="project.projectUrl"
+              target="_blank"
+              rel="noreferrer"
+              >
               Visualizar Projeto
               <img src="/assets/icon.svg" alt="">
             </a>
-            <a [href]="project.repositoryUrl">
+            <a
+              [href]="project.repositoryUrl"
+              target="_blank"
+              rel="noreferrer"
+            >
               Repositório
               <img src="/assets/github.svg" alt="">
             </a>
@@ -48,11 +57,20 @@
           </div>
 
           <div class="button">
-            <a *ngIf='project.projectUrl != ""' [href]="project.projectUrl">
+            <a
+              *ngIf='project.projectUrl != ""'
+              [href]="project.projectUrl"
+              target="_blank"
+              rel="noreferrer"
+              >
               Visualizar Projeto
               <img src="/assets/icon.svg" alt="">
             </a>
-            <a [href]="project.repositoryUrl">
+            <a
+              [href]="project.repositoryUrl"
+              target="_blank"
+              rel="noreferrer"
+            >
               Repositório
               <img src="/assets/github.svg" alt="">
             </a>

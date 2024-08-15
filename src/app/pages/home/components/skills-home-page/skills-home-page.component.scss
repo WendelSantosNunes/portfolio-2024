@@ -1,0 +1,54 @@
+section{
+  background-color: var(--color-background-secudary);
+  margin: 6.25rem auto;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+
+  div.container {
+    background-color: var(--color-background-tertiary);
+    max-width: 70.5rem;
+    width: 100%;
+
+    margin: 3.375rem 1rem;
+    overflow: auto;
+
+    border-radius: 0.5rem;
+
+    h2{
+      text-align: center;
+      padding-top: 2.5rem;
+
+      color: var(--color-text-secudary);
+      font-size: 2.25rem;
+      font-weight: 400;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      text-align: center;
+
+      margin-top: 2.5rem;
+
+      div{
+        align-self: end;
+
+        margin-bottom: 3rem;
+      }
+
+      img{
+        width: 64px;
+      }
+
+      @media (max-width: 48rem) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+
+      @media (max-width: 36rem) {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+}

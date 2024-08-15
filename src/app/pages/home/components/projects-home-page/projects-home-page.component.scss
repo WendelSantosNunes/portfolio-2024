@@ -36,6 +36,8 @@ section{
         img{
           max-width: 24rem;
           width: 100%;
+
+          border-radius: 0.5rem;
         }
       }
 
@@ -69,7 +71,6 @@ section{
             margin-bottom: 2rem;
 
             div{
-              width: min-content;
               border-radius: 0.75rem;
 
               background-color: var(--color-background-button-primary);
