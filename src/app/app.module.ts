@@ -10,6 +10,7 @@ import { PresentationHomePageComponent } from './pages/home/components/presentat
 import { AboutHomePageComponent } from './pages/home/components/about-home-page/about-home-page.component';
 import { ProjectsHomePageComponent } from './pages/home/components/projects-home-page/projects-home-page.component';
 import { SkillsHomePageComponent } from './pages/home/components/skills-home-page/skills-home-page.component';
+import { FooterComponent } from './core/components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { SkillsHomePageComponent } from './pages/home/components/skills-home-pag
     AboutHomePageComponent,
     ProjectsHomePageComponent,
     SkillsHomePageComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
