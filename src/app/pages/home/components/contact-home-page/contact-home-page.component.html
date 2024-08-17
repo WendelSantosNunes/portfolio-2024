@@ -1,0 +1,66 @@
+<section class="container">
+  <h2>Contato</h2>
+  <div class="contact">
+    <div>
+      <img src="/assets/home-drawing.png" alt="">
+
+      <h4>Você gostou do meu portfólio? Entre em contato.</h4>
+
+      <p>
+        Estou sempre disponível para conversar. Você pode me enviar
+        um e-mail para wendelnunes9999&#64;gmail.com ou entrar em contato pelas
+        minhas redes sociais.
+      </p>
+
+      <div>
+        <a href="">
+          <img src="/assets/logo-whatsapp.svg" alt="">
+        </a>
+
+        <a href="">
+          <img src="/assets/logo-linkedin.svg" alt="">
+        </a>
+      </div>
+    </div>
+
+    <div>
+      <form [formGroup]="contact" >
+        <input id="name" type="text" formControlName="name" placeholder="Name" >
+
+        <div class="message-erro" *ngIf="contact.get('name')?.errors && contact.get('name')?.touched">
+          Nome é obrigatório!
+        </div>
+
+        <input id="email" type="email" formControlName="email" placeholder="E-mail">
+
+        <div class="message-erro" *ngIf="contact.get('email')?.errors && contact.get('email')?.touched">
+          E-mail é obrigatório!
+        </div>
+
+        <textarea
+          id="message"
+          formControlName="message"
+          placeholder="Mensagem"
+          rows="10" cols="33">
+        </textarea>
+
+        <div class="message-erro" *ngIf="contact.get('message')?.errors && contact.get('message')?.touched">
+          Mensagem é obrigatório!
+        </div>
+
+        <button
+          [disabled]="!contact.valid"
+          [ngClass]="habilitarBotao()"
+          (click)="sendEmail()"
+        >
+          Enviar mensagem
+          <img src="/assets/arrow-right.svg" alt="">
+        </button>
+
+        <div *ngIf="showSuccessMessage" class="success-message">
+          E-mail enviado com sucesso!
+        </div>
+      </form>
+    </div>
+  </div>
+</section>

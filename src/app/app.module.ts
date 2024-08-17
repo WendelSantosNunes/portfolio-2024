@@ -11,6 +11,8 @@ import { AboutHomePageComponent } from './pages/home/components/about-home-page/
 import { ProjectsHomePageComponent } from './pages/home/components/projects-home-page/projects-home-page.component';
 import { SkillsHomePageComponent } from './pages/home/components/skills-home-page/skills-home-page.component';
 import { FooterComponent } from './core/components/footer/footer.component';
+import { ContactHomePageComponent } from './pages/home/components/contact-home-page/contact-home-page.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,10 +25,12 @@ import { FooterComponent } from './core/components/footer/footer.component';
     ProjectsHomePageComponent,
     SkillsHomePageComponent,
     FooterComponent,
+    ContactHomePageComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
