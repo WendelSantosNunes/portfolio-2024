@@ -64,7 +64,7 @@ section {
         gap: 1rem;
 
         .message-erro {
-          color: red;
+          color: var(--color-background-button-primary);
         }
 
         input, textarea{
