@@ -1,7 +1,7 @@
 export const Projects = [
   {
     name: 'Portfólio -- Front-End',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.',
+    description: 'Portfólio',
     technologies:  ['Angular', 'Typescript.js', 'SCSS', 'HTML'],
     projectUrl: "",
     repositoryUrl: 'https://github.com/WendelSantosNunes/portfolio-2024',
@@ -25,7 +25,7 @@ export const Projects = [
   },
   {
     name: 'Autenticação de Usuário -- Back-End',
-    description: 'Este projeto é um back-end desenvolvido com o objetivo de implementar um sistema de autenticação utilizando JWT e Spring Security. Com isso, um usuário tem a capacidade de criar uma conta na API, fazer login, editar seus dados e, se for um administrador, excluir a conta. Para atingir esse objetivo, utilizamos o framework Spring Boot e a tecnologia JPA/Hibernate.',
+    description: 'Este projeto é um back-end desenvolvido com o objetivo de implementar um sistema de autenticação utilizando JWT e Spring Security. Com isso, um usuário tem a capacidade de criar uma conta na API, fazer login, editar seus dados e, se for um administrador, excluir a conta. Para atingir esse objetivo, foi utilizado o framework Spring Boot e a tecnologia JPA/Hibernate.',
     technologies: ['Java', 'Spring Boot', 'Spring Security', 'Swagger', 'JWT', 'MySql'],
     projectUrl: "",
     repositoryUrl: 'https://github.com/WendelSantosNunes/auth_usuario',
