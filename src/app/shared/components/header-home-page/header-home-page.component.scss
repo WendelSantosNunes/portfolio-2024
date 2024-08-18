@@ -1,65 +1,82 @@
 header{
   background-color: var(--color-background-secudary);
-}
 
-.header-container{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem 0;
-
-  .menu{
+  .header-container{
     display: flex;
     align-items: center;
-    gap: 1rem;
+    justify-content: space-between;
+    padding: 1rem 0;
 
-    div{
-      cursor: pointer;
-    }
+    .menu{
+      display: flex;
+      align-items: center;
+      gap: 1rem;
 
-    .light-dark{
-      background-color: var(--color-background-button-tertiary);
-      padding: 0.75rem 0.75rem 0.5rem 0.75rem;
-      border-radius: 0.5rem;
-
-      &:hover{
-        transform: scale(0.98);
-        transition: 200ms linear;
-        background-color: var(--color-background-button-primary);
+      div{
+        cursor: pointer;
       }
-    }
 
-    .mobile-menu {
-      display: none;
-    }
+      .light-dark{
+        background-color: var(--color-background-button-tertiary);
+        padding: 0.75rem 0.75rem 0.5rem 0.75rem;
+        border-radius: 0.5rem;
 
-    @media (max-width: 768px) {
+        &:hover{
+          transform: scale(0.98);
+          transition: 200ms linear;
+          background-color: var(--color-background-button-primary);
+        }
+      }
+
       .mobile-menu {
-        display: block;
-      }
-
-      ul{
         display: none;
       }
-    }
-  }
 
-  h1 {
-    font-size: 2rem;
-    font-weight: 400;
-  }
+      @media (max-width: 768px) {
+        .mobile-menu {
+          display: block;
+        }
 
-  ul{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-
-    li{
-      cursor: pointer;
-
-      &:hover {
-        color: var(--color-text-secudary);
+        ul{
+          display: none;
+        }
       }
     }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 400;
+    }
+
+    ul{
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      li a{
+        color: var(--color-text-primary);
+        cursor: pointer;
+
+        &:hover {
+          color: var(--color-text-secudary);
+        }
+      }
+    }
+
+    @media (min-width:769px){
+      @keyframes slideInFromLeft {
+        0% {
+          transform: translateX(-100%);
+          opacity: 0;
+        }
+        100% {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+
+      animation: slideInFromLeft 1.50s ease-in-out forwards;
+    }
   }
+
 }

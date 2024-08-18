@@ -56,6 +56,18 @@ section{
     }
   }
 
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  animation: slideInFromLeft 1.50s ease-in-out forwards;
 
   @media (max-width: 75rem) {
     & > img{

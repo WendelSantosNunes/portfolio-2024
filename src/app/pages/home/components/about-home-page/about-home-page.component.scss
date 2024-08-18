@@ -111,4 +111,17 @@ section{
       max-width: 36.125rem;
     }
   }
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  animation: slideInFromLeft 1.50s ease-in-out forwards;
 }
