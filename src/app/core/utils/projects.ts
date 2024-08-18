@@ -5,7 +5,7 @@ export const Projects = [
     technologies:  ['Angular', 'Typescript.js', 'SCSS', 'HTML'],
     projectUrl: "",
     repositoryUrl: 'https://github.com/WendelSantosNunes/portfolio-2024',
-    imageUrl: '/assets/picture.png',
+    imageUrl: '/assets/shahadat-rahman-O2MdroNurVw-unsplash.jpg',
   },
   {
     name: 'Netflix (Home Page) -- Front-End',
@@ -21,7 +21,7 @@ export const Projects = [
     technologies: ['Java', 'Spring Boot', 'Spring Boot Starte Data JPA', 'Spring Boot Starter Mail', 'Spring Security', 'JWT', 'Lombok', 'Flywaydb', 'MySql', 'Swagger'],
     projectUrl: "",
     repositoryUrl: 'https://github.com/WendelSantosNunes/Blog',
-    imageUrl: '/assets/picture.png',
+    imageUrl: '/assets/shahadat-rahman-O2MdroNurVw-unsplash.jpg',
   },
   {
     name: 'Autenticação de Usuário -- Back-End',
@@ -29,7 +29,7 @@ export const Projects = [
     technologies: ['Java', 'Spring Boot', 'Spring Security', 'Swagger', 'JWT', 'MySql'],
     projectUrl: "",
     repositoryUrl: 'https://github.com/WendelSantosNunes/auth_usuario',
-    imageUrl: '/assets/picture.png',
+    imageUrl: '/assets/shahadat-rahman-O2MdroNurVw-unsplash.jpg',
   },
   {
     name: 'VTEX -- Front-End',

@@ -28,6 +28,14 @@ section{
 
       @media (max-width: 62rem) {
         grid-template-columns: 1fr;
+
+        .project-img{
+          grid-row: 1;
+        }
+
+        .content{
+          grid-row: 2;
+        }
       }
 
       .project-img {
