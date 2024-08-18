@@ -81,6 +81,10 @@ section{
               background-color: var(--color-background-button-primary);
             }
           }
+
+          &:hover{
+            background-color: var(--color-background-button-primary);
+          }
         }
       }
 
