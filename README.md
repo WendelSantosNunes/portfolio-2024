@@ -17,10 +17,10 @@
 ### 🪐 Sobre o projeto
 
 O portfólio é um site que tem como objetivo mostrar um pouco sobre meus projetos e experiências durante a minha caminha no mundo da programação.
-
+<!-- 
 <div align="center">
   <img src="./imagem-readme/project.png">
-</div>
+</div> -->
 
 ---
 
