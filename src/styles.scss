@@ -2,15 +2,15 @@
 
 :root {
 	--color-text-primary: #000000;
-	--color-text-secudary: #FF944D;
+	--color-text-secondary: #FF944D;
   --color-text-tertiary: #FFFFFF;
 
   --color-background-primary: #F7FBFC;
-  --color-background-secudary: #EBEBED;
+  --color-background-secondary: #EBEBED;
   --color-background-tertiary: #FFFFFF;
 
   --color-background-button-primary: #FF944D;
-  --color-background-button-secudary: #413A4F;
+  --color-background-button-secondary: #413A4F;
   --color-background-button-tertiary: #454545;
 }
 
@@ -21,11 +21,11 @@ body{
 
   &.dark{
     --color-text-primary: #FFFFFF;
-    --color-text-secudary: #FF944D;
+    --color-text-secondary: #FF944D;
     --color-text-tertiary: #FFFFFF;
 
     --color-background-primary: #2B2B2B;
-    --color-background-secudary: #423F3E;
+    --color-background-secondary: #423F3E;
     --color-background-tertiary: #313131;
 
     --color-background-button-primary: #FF944D;

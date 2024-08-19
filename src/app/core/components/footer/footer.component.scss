@@ -1,5 +1,5 @@
 footer{
-  background-color: var(--color-background-secudary);
+  background-color: var(--color-background-secondary);
 
   div.container{
     display: flex;
@@ -23,7 +23,7 @@ footer{
           color: var(--color-text-terciary);
 
           &:hover{
-          color:var(--color-text-secudary)
+          color:var(--color-text-secondary)
           }
         }
       }

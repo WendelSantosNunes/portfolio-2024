@@ -2,7 +2,7 @@ section {
   h2{
     padding-top: 3.375rem;
 
-    color: var(--color-text-secudary);
+    color: var(--color-text-secondary);
     font-size: 2.25rem;
     font-weight: 400;
 
@@ -23,7 +23,7 @@ section {
       }
 
       h4{
-        color: var(--color-text-secudary);
+        color: var(--color-text-secondary);
 
         font-size: 1.5rem;
         font-weight: 600;
@@ -78,7 +78,7 @@ section {
           resize: none;
 
           &:focus{
-            border: 3px solid var(--color-text-secudary);
+            border: 3px solid var(--color-text-secondary);
           }
 
           &::placeholder{
