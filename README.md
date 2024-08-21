@@ -66,3 +66,15 @@ Certifique-se de que todas as configurações do ambiente foram realizadas corre
 - Execute os seguintes comandos no terminal do VSCode:
   - `npm install`: Esse comando vai instalar os pacotes do projeto.
   - `npm start`: Esse comando vai executar o projeto.
+
+### 🛠 Tecnologias
+
+#### **Front-End**
+
+- **[JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)**
+- **[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)**
+- **[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)**
+- **[Angular](https://angular.dev)**
+
+#### **API**
+- **[TMDB](https://www.emailjs.com)**

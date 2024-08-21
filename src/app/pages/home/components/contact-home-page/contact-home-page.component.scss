@@ -64,7 +64,9 @@ section {
         gap: 1rem;
 
         .message-erro {
-          color: var(--color-background-button-primary);
+          text-align: left;
+          font-weight: 200;
+          color: red;
         }
 
         input, textarea{
@@ -87,6 +89,11 @@ section {
           }
         }
 
+        input:-webkit-autofill{
+          -webkit-box-shadow: 0 0 0 1000px var(--color-background-button-tertiary) inset;
+          -webkit-text-fill-color: var(--color-text-tertiary) !important;
+        }
+
         button{
           background-color: var(--color-background-button-tertiary);
           color: var(--color-text-tertiary);
@@ -102,6 +109,14 @@ section {
           gap: 0.625rem;
 
           font-size: 1rem;
+
+          @media(max-width: 25rem){
+            max-width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+
 
           &:hover{
             transform: scale(0.98);

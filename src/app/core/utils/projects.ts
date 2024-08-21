@@ -1,7 +1,7 @@
 export const Projects = [
   {
     name: 'Portfólio -- Front-End',
-    description: 'Portfólio',
+    description: 'Este projeto é o meu portfólio. Ele tem como objetivo apresentar informações sobre mim e alguns dos projetos que já realizei.',
     technologies:  ['Angular', 'Typescript.js', 'SCSS', 'HTML'],
     projectUrl: "",
     repositoryUrl: 'https://github.com/WendelSantosNunes/portfolio-2024',

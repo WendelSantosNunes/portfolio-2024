@@ -2,7 +2,7 @@
   <h2>Projetos</h2>
 
   <div *ngFor="let project of projectList.slice(0, 4); let index = index" class="project" >
-    <div *ngIf="index % 2 == 0" >
+    <div *ngIf="index % 2 == 0" class="project-container">
       <div class="project-img">
         <img [src]="project.imageUrl" alt="{{ project.name }}">
       </div>
@@ -42,7 +42,7 @@
       </div>
     </div>
 
-    <div *ngIf="index % 2 != 0" class="test">
+    <div *ngIf="index % 2 != 0" class="project-container test">
       <div class="info">
         <div class="content">
           <h3>{{ project.name }}</h3>

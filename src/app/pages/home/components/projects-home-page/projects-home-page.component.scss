@@ -16,7 +16,7 @@ section{
   }
 
   .project{
-    & > div{
+    .project-container{
       max-width: 70rem;
       width: 100%;
       margin-top: 3.75rem;
@@ -42,7 +42,7 @@ section{
         margin: auto;
 
         img{
-          max-width: 24rem;
+          max-width: 29.375rem;
           width: 100%;
 
           border-radius: 0.5rem;
@@ -121,7 +121,7 @@ section{
       }
 
       .project-img, .info{
-        padding: 3rem;
+        padding: 2rem;
       }
     }
   }
