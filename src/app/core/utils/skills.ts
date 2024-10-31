@@ -66,7 +66,7 @@ export const Skills = [
   },
   {
     url: '/assets/github-skill.svg',
-    alt: 'Git image logo',
-    nome: 'Git',
+    alt: 'GitHub image logo',
+    nome: 'GitHub',
   }
 ]
