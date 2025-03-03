@@ -24,16 +24,22 @@ export const Skills = [
     alt: 'Angular image logo',
     nome: 'Angular',
   },
+  // {
+  //   url: '/assets/java-skill.svg',
+  //   alt: 'Java image logo',
+  //   nome: 'Java',
+  // },
+  // {
+  //   url: '/assets/spring-skill.svg',
+  //   alt: 'Spring Boot image logo',
+  //   nome: 'Spring Boot',
+  // },
   {
-    url: '/assets/java-skill.svg',
-    alt: 'Java image logo',
-    nome: 'Java',
+    url: '/assets/django-skill.svg',
+    alt: 'Django image logo',
+    nome: 'Django',
   },
-  {
-    url: '/assets/spring-skill.svg',
-    alt: 'Spring Boot image logo',
-    nome: 'Spring Boot',
-  },
+
   {
     url: '/assets/mysql-skill.svg',
     alt: 'MySQL image logo',
